@@ -1,15 +1,26 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-.container{
-    width: 30%;
+.contador{
+    //width: 30%;
     font-size: 30px;
+    text-align: center;
+    margin-top: 15rem
+    
 }
 
 p {
     font-size: 30px;
+    margin: 3rem
 }
 
-.col{
-    border: 2px solid lightgray;
-    background-color: greenyellow;
+.contador div{
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    background: #a06060;
+    color: white;
+    padding: 20px;
+    margin: 1px;
 }
+
+   
